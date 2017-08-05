@@ -1,0 +1,187 @@
+html, body {
+                background-color: #EDEFF2;
+                color: #333;
+                font-family: 'Open Sans', sans-serif;
+                min-width: 1024px;
+            }
+            input {
+                margin-top: 5px;
+                width: 200px;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 10pt;
+                padding: 2px 5px;
+                border: 1px solid #eee;
+            }
+            .h4 {
+                margin: 0px 0px 20px 0px;
+                font-size: 12pt;
+                color: #777;
+                font-weight: normal;
+            }
+            
+            .green {
+                color: #39b54a;
+            }
+            
+            .h3 {
+                margin: 0px 0px 20px 0px;
+                font-size: 16pt;
+                font-style: oblique;
+                color: #111;
+                font-weight: normal;
+            }
+            button {
+                width: 100%;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 10pt;
+                color: #fff;
+                padding: 5px;
+                margin-top: 15px;
+                background: #39b54a;
+                border-color: #39b54a;
+                border-radius: 3px;
+                cursor: pointer;
+                user-select: none;
+            }
+            .mes {
+                display: none;
+                color: red;
+                font-size: 10pt;
+                margin: 10px;
+                width: 190px;
+              }
+            p {
+                text-indent: 1.5em;
+              }
+              
+            a.paslink {
+                font-size: 10pt;
+                display: flex;
+                justify-content: flex-end;
+                text-decoration: none;
+                color: #257b31;
+            }
+            a:hover.paslink {
+                color: #12a626;
+            }
+            
+            .start {
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              margin-top: 50px;
+            }
+            
+            .logo {
+              font-size: 34pt;
+              margin-left: 10px;
+            }
+            .titles {
+              font-size: 28px;
+            }
+            .liner {
+              display: inline-block;
+            }
+            .income {
+              background: #fff;
+              margin-left: 40px;
+              padding: 30px 50px;
+              border-radius: 3px;
+              box-shadow: 0 0 2px rgba(0,0,0,0.5); 
+              margin-bottom: 10px;
+            }
+            
+            .slider {
+                width: 590px;
+                height: 480px;
+                overflow:hidden;
+            }
+            .frame {
+                position: absolute;
+                width: 590px;
+                height: 480px;
+                background-image: url('/slider/monitor.png');
+                background-repeat: no-repeat;
+                background-position: bottom;
+                z-index: 100;
+            }
+            .carus {
+                position:relative;
+                width:10000px;
+            }
+            
+            .slider img{
+                position: relative;
+                z-index: 1;
+                padding-top: 20px;
+                float: left;
+            }
+            
+            .menubox {
+                margin-top: 30px;
+            }
+            .menu {
+                display: inline-block;
+                margin: 10px 10px;
+                text-decoration: none;
+                font-size: 12pt;
+            }
+            a.menu {
+                color: #269abc;
+            }
+            a.menu:hover {
+                color: #12a626;
+            }
+            .cprt {
+                color: #777;
+            }
+            
+.popup {
+  display: none;
+  position: fixed;
+  top: 150px;
+  color: #333;
+  padding: 30px;
+  width: 400px;
+  height: 330px;
+  background: #fff;
+  border-radius: 3px;
+  z-index: 300;
+}
+.close {
+  display: none;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background-image: url('/close.png');
+  width: 30px;
+  height: 30px;
+  z-index: 300;
+  cursor: pointer;
+}
+.bgr {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 200;
+  cursor: pointer;
+}
+.pushmes {
+  display: none;
+  position: fixed;
+  top: 200px;
+  color: #333;
+  padding: 30px;
+  width: 300px;
+  background: #fff;
+  border-radius: 3px;
+  z-index: 300;
+}
+.popup span, .pushmes span {
+  color: #111;
+}
